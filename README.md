@@ -36,7 +36,7 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** building at the intersection of **c
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Where Security Meets AI
+<img src="./assets/titles/security-ai.svg" width="100%" alt="Where Security Meets AI" />
 
 <p align="center"><img src="./assets/security-ai-pipeline.svg" width="100%" alt="Pipeline: Logs and alerts, then rule-based detection and IOC extraction, then ML risk scoring with Random Forest and Isolation Forest (AI), then MITRE ATT&amp;CK mapping, then AI-assisted triage with severity, summary and report (AI)." /></p>
 
@@ -69,7 +69,7 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** building at the intersection of **c
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Tech Stack
+<img src="./assets/titles/tech-stack.svg" width="100%" alt="Tech Stack" />
 
 <sub>Grouped from what my public repositories actually use. Nothing here is a proficiency rating.</sub>
 
@@ -140,11 +140,13 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** building at the intersection of **c
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Featured Projects · Security × AI
+<img src="./assets/titles/projects.svg" width="100%" alt="Featured Projects · Security × AI" />
 
 <table>
 <tr>
 <td width="50%" valign="top">
+
+<a href="https://github.com/SargunKaur15/SOCGenie"><img src="./assets/projects/socgenie.svg" width="100%" alt="SOCGenie animated banner: radar sweep and SOC alert queue with severity and MITRE ATT&amp;CK IDs" /></a>
 
 ### [SOCGenie](https://github.com/SargunKaur15/SOCGenie)
 <img src="https://img.shields.io/badge/Flagship-ff6b35?style=flat-square" alt="Flagship" /> <img src="https://img.shields.io/badge/Security_%2B_ML-a855f7?style=flat-square" alt="Security + ML" />
@@ -157,6 +159,8 @@ Academic SOC platform prototype built around the real analyst workflow: log uplo
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard"><img src="./assets/projects/cybersentinel.svg" width="100%" alt="AI-CyberSentinel animated banner: log scan highlighting IOCs, then a HIGH severity verdict" /></a>
 
 ### [AI-CyberSentinel SOC Dashboard](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard)
 <img src="https://img.shields.io/badge/Security_%2B_LLM-a855f7?style=flat-square" alt="Security + LLM" /> <img src="https://img.shields.io/badge/Offline_Mode-10b981?style=flat-square" alt="Offline mode" />
@@ -171,6 +175,8 @@ Simulates Level-1 alert triage: paste a SIEM alert or raw log, extract **IOCs** 
 </tr>
 <tr>
 <td width="50%" valign="top">
+
+<a href="https://github.com/SargunKaur15/Network-Packet-Analyzer"><img src="./assets/projects/packet-analyzer.svg" width="100%" alt="Network Packet Analyzer animated banner: TCP and UDP packets between a host and a server" /></a>
 
 ### [Network Packet Analyzer](https://github.com/SargunKaur15/Network-Packet-Analyzer)
 <img src="https://img.shields.io/badge/Network_Security-22d3ee?style=flat-square" alt="Network security" />
@@ -201,7 +207,7 @@ Small, clearly scoped Python tools from my security learning path:
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Education
+<img src="./assets/titles/education.svg" width="100%" alt="Education" />
 
 <table>
 <tr>
@@ -224,7 +230,7 @@ Guru Gobind Singh Indraprastha University (GGSIPU), Delhi
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## GitHub Activity
+<img src="./assets/titles/activity.svg" width="100%" alt="GitHub Activity" />
 
 <div align="center">
 
@@ -249,7 +255,7 @@ Guru Gobind Singh Indraprastha University (GGSIPU), Delhi
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Let's Connect
+<img src="./assets/titles/connect.svg" width="100%" alt="Let's Connect" />
 
 Open to collaborating on security tooling, ML-for-security projects and student community initiatives.
 

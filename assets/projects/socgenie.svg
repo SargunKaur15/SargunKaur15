@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img" aria-labelledby="title desc">
+  <title id="title">SOCGenie</title>
+  <desc id="desc">Animated banner: a radar sweep picks up threats while alerts slide into a SOC alert queue with severity and MITRE ATT&amp;CK technique IDs.</desc>
+  <defs>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="220" y1="0" x2="420" y2="0">
+      <stop offset="0" stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame"><rect width="600" height="220" rx="16"/></clipPath>
+    <clipPath id="radar"><circle cx="110" cy="112" r="82"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+    .sweep { transform-box: view-box; transform-origin: 110px 112px; animation: spin 4s linear infinite; }
+    .blip { opacity: 0; animation: blip 4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    .b2 { animation-delay: 1.3s; } .b3 { animation-delay: 2.6s; }
+    .row { opacity: 0; animation: row 8s ease-out infinite; }
+    .r2 { animation-delay: 1.3s; } .r3 { animation-delay: 2.6s; }
+    .live { animation: live 1.6s ease-in-out infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes blip { 0%, 4% { opacity: 0; transform: scale(.4); } 8% { opacity: 1; transform: scale(1.3); } 30% { opacity: .9; transform: scale(1); } 60%, 100% { opacity: 0; } }
+    @keyframes row { 0% { opacity: 0; transform: translateX(20px); } 6% { opacity: 1; transform: translateX(0); } 80% { opacity: 1; } 92%, 100% { opacity: 0; } }
+    @keyframes live { 50% { opacity: .3; } }
+    @media (prefers-reduced-motion: reduce) {
+      .sweep, .live { animation: none; } .blip, .row { animation: none; opacity: 1; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="600" height="220" fill="#0b0d12"/>
+    <rect width="600" height="220" fill="url(#grid)"/>
+
+    <!-- radar -->
+    <g fill="none" stroke="#10b981">
+      <circle cx="110" cy="112" r="82" stroke-opacity="0.45"/>
+      <circle cx="110" cy="112" r="56" stroke-opacity="0.25"/>
+      <circle cx="110" cy="112" r="30" stroke-opacity="0.25"/>
+      <path d="M28 112 H192 M110 30 V194" stroke-opacity="0.18"/>
+    </g>
+    <g clip-path="url(#radar)">
+      <path class="sweep" d="M110 112 L192 112 A82 82 0 0 0 168 54 Z" fill="url(#sweep)"/>
+    </g>
+    <circle class="blip" cx="150" cy="78" r="5" fill="#f85149"/>
+    <circle class="blip b2" cx="74" cy="150" r="5" fill="#ff6b35"/>
+    <circle class="blip b3" cx="138" cy="160" r="5" fill="#d29922"/>
+    <circle cx="110" cy="112" r="3" fill="#10b981"/>
+
+    <!-- title -->
+    <text x="222" y="52" class="sans" font-size="32" font-weight="800" fill="url(#name)">SOCGenie</text>
+    <circle class="live" cx="392" cy="41" r="4" fill="#10b981"/>
+    <text x="402" y="46" class="mono" font-size="11" fill="#10b981">MONITORING</text>
+    <text x="222" y="74" class="mono" font-size="12" fill="#8b949e">detection · triage · ML risk · MITRE ATT&amp;CK</text>
+
+    <!-- alert queue -->
+    <rect x="222" y="88" width="358" height="114" rx="10" fill="#161b22" stroke="#30363d"/>
+    <text x="236" y="106" class="mono" font-size="10" letter-spacing="1.5" fill="#8b949e">ALERT QUEUE</text>
+    <g class="row">
+      <rect x="236" y="116" width="40" height="18" rx="4" fill="#f85149"/><text x="256" y="129" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#0b0d12">CRIT</text>
+      <text x="286" y="129" class="sans" font-size="13" fill="#e6edf3">Brute-force login burst</text>
+      <text x="566" y="129" text-anchor="end" class="mono" font-size="11" fill="#a855f7">T1110</text>
+    </g>
+    <g class="row r2">
+      <rect x="236" y="142" width="40" height="18" rx="4" fill="#ff6b35"/><text x="256" y="155" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#0b0d12">HIGH</text>
+      <text x="286" y="155" class="sans" font-size="13" fill="#e6edf3">Encoded PowerShell command</text>
+      <text x="566" y="155" text-anchor="end" class="mono" font-size="11" fill="#a855f7">T1059.001</text>
+    </g>
+    <g class="row r3">
+      <rect x="236" y="168" width="40" height="18" rx="4" fill="#d29922"/><text x="256" y="181" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#0b0d12">MED</text>
+      <text x="286" y="181" class="sans" font-size="13" fill="#e6edf3">Suspicious phishing link</text>
+      <text x="566" y="181" text-anchor="end" class="mono" font-size="11" fill="#a855f7">T1566</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+</svg>
