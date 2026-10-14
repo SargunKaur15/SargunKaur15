@@ -18,9 +18,17 @@
 
 <br/>
 
+<img src="./assets/coder-girl.svg" align="right" width="380" alt="Animated illustration of a girl with headphones coding on a laptop with a glowing shield logo, code scrolling on a screen behind her" />
+
 I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and machine learning** meet. I build defensive tooling that follows a real SOC analyst's workflow — detection, triage, investigation, MITRE ATT&CK mapping and ML-assisted risk analysis — and I document exactly what each project does and doesn't do.
 
+- **Building:** [SOCGenie](https://github.com/SargunKaur15/SOCGenie), a SOC platform prototype
+- **Learning:** Blue Team operations, SIEM workflows, detection engineering
+- **Into:** applied ML for security, Python, React
+
 **Goal:** build real-world AI and cybersecurity solutions, and grow into a skilled cybersecurity professional.
+
+<br clear="right"/>
 
 <p align="center"><img src="./assets/terminal.svg" width="88%" alt="Terminal: whoami — Sargun Kaur, B.Tech CSE at GGSIPU Delhi. Focus — Blue Team, SOC analysis, detection engineering, ML for security. Featured projects — SOCGenie, AI-CyberSentinel-SOC-Dashboard, Network-Packet-Analyzer." /></p>
 
