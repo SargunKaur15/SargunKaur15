@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Sargun Kaur — AI/ML Enthusiast, Cybersecurity Learner, Developer, Open-Source Contributor. B.Tech CSE, GGSIPU Delhi. Founder & Community Lead, Coder Girl Community." />
+<img src="./assets/header.svg" width="100%" alt="Sargun Kaur — AI/ML Enthusiast, Cybersecurity Learner, Developer, Open-Source Contributor. B.Tech CSE, GGSIPU Delhi. Coder Girl Community." />
 
 <a href="https://github.com/SargunKaur15">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=FF6B35&center=true&vCenter=true&width=620&height=48&lines=Building+AI-powered+solutions;Exploring+Cybersecurity;Learning+Blue+Team+Operations;Developing+with+Python;Turning+ideas+into+practical+projects" alt="Building AI-powered solutions · Exploring Cybersecurity · Learning Blue Team Operations · Developing with Python · Turning ideas into practical projects" />
@@ -20,11 +20,11 @@
 
 I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and machine learning** meet. I build defensive tooling that follows a real SOC analyst's workflow — detection, triage, investigation, MITRE ATT&CK mapping and ML-assisted risk analysis — and I document exactly what each project does and doesn't do.
 
-I also founded and lead **Coder Girl Community**, a student-led learning community for GGSIPU engineering students.
+I'm also part of **Coder Girl Community**, a student-led learning community for GGSIPU engineering students.
 
 **Goal:** build real-world AI and cybersecurity solutions, and grow into a skilled cybersecurity professional.
 
-<p align="center"><img src="./assets/terminal.svg" width="88%" alt="Terminal: whoami — Sargun Kaur, B.Tech CSE at GGSIPU Delhi, founder of Coder Girl Community. Focus — Blue Team, SOC analysis, detection engineering, ML for security. Featured projects — SOCGenie, AI-CyberSentinel-SOC-Dashboard, Network-Packet-Analyzer." /></p>
+<p align="center"><img src="./assets/terminal.svg" width="88%" alt="Terminal: whoami — Sargun Kaur, B.Tech CSE at GGSIPU Delhi, Coder Girl Community. Focus — Blue Team, SOC analysis, detection engineering, ML for security. Featured projects — SOCGenie, AI-CyberSentinel-SOC-Dashboard, Network-Packet-Analyzer." /></p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
@@ -172,10 +172,10 @@ Guru Gobind Singh Indraprastha University (GGSIPU), Delhi
 </td>
 <td width="50%" valign="top">
 
-**Founder & Community Lead — Coder Girl Community**<br/>
+**Coder Girl Community**<br/>
 A student-led learning and coding community for GGSIPU engineering students: study resources, coding roadmaps, a cybersecurity lab and peer support.
 
-<img src="https://img.shields.io/badge/Founder-161b22?style=for-the-badge" alt="Founder" /><img src="https://img.shields.io/badge/Coder_Girl-a855f7?style=for-the-badge" alt="Coder Girl Community" />
+<img src="https://img.shields.io/badge/Community-161b22?style=for-the-badge" alt="Community" /><img src="https://img.shields.io/badge/Coder_Girl-a855f7?style=for-the-badge" alt="Coder Girl Community" />
 
 </td>
 </tr>
