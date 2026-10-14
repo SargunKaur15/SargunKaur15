@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270" role="img" aria-labelledby="title desc">
+  <title id="title">Cybersecurity × AI pipeline</title>
+  <desc id="desc">How my projects connect cybersecurity and AI: logs and alerts flow into rule-based detection and IOC extraction, then ML risk scoring with Random Forest and Isolation Forest, then MITRE ATT&amp;CK mapping, then AI-assisted triage with severity, summary and report.</desc>
+  <defs>
+    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="130" y1="0" x2="1070" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.3" stop-color="#ff6b35"/>
+      <stop offset="0.5" stop-color="#a855f7"/>
+      <stop offset="0.75" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#ff6b35"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="270" rx="18"/></clipPath>
+  </defs>
+  <style>
+    * { transform-box: fill-box; }
+    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+    .pkt { animation: travel 7s linear infinite; opacity: 0; }
+    .k2 { animation-delay: 1.75s; } .k3 { animation-delay: 3.5s; } .k4 { animation-delay: 5.25s; }
+    .node { animation: glow 7s ease-in-out infinite; }
+    .n2 { animation-delay: 1.6s; } .n3 { animation-delay: 3.2s; } .n4 { animation-delay: 4.8s; } .n5 { animation-delay: 6.4s; }
+    .tag { animation: bob 3s ease-in-out infinite; }
+    .dash { stroke-dasharray: 6 8; animation: dash 1.2s linear infinite; }
+    @keyframes travel { 0% { opacity: 0; transform: translateX(0); } 4% { opacity: 1; } 96% { opacity: 1; } 100% { opacity: 0; transform: translateX(940px); } }
+    @keyframes glow { 0%, 100% { stroke-opacity: .45; } 8% { stroke-opacity: 1; } 20% { stroke-opacity: .45; } }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes dash { to { stroke-dashoffset: -14; } }
+    @media (prefers-reduced-motion: reduce) {
+      .pkt { display: none; } .node, .tag, .dash { animation: none; } .node { stroke-opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="270" fill="#0b0d12"/>
+    <rect width="1200" height="270" fill="url(#grid)"/>
+
+    <!-- title -->
+    <g text-anchor="middle">
+      <rect x="455" y="18" width="160" height="30" rx="15" fill="#ff6b35" fill-opacity="0.15" stroke="#ff6b35"/>
+      <text x="535" y="38" class="mono" font-size="14" font-weight="700" letter-spacing="2" fill="#ff6b35">CYBERSECURITY</text>
+      <text x="637" y="39" class="sans" font-size="20" font-weight="700" fill="#e6edf3">×</text>
+      <rect x="660" y="18" width="56" height="30" rx="15" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7"/>
+      <text x="688" y="38" class="mono" font-size="14" font-weight="700" letter-spacing="2" fill="#a855f7">AI</text>
+    </g>
+
+    <!-- connector + packets (drawn before nodes so packets pass behind them) -->
+    <path d="M130 135 H1070" stroke="url(#line)" stroke-width="3" stroke-opacity="0.35"/>
+    <path d="M130 135 H1070" stroke="url(#line)" stroke-width="2" class="dash" fill="none"/>
+    <circle class="pkt" cx="130" cy="135" r="5" fill="#22d3ee"/>
+    <circle class="pkt k2" cx="130" cy="135" r="5" fill="#ff6b35"/>
+    <circle class="pkt k3" cx="130" cy="135" r="5" fill="#a855f7"/>
+    <circle class="pkt k4" cx="130" cy="135" r="5" fill="#10b981"/>
+
+    <!-- 1 logs -->
+    <rect class="node" x="88" y="93" width="84" height="84" rx="18" fill="#161b22" stroke="#22d3ee" stroke-width="2"/>
+    <g stroke="#22d3ee" stroke-width="4" stroke-linecap="round"><path d="M110 120 H150"/><path d="M110 135 H140"/><path d="M110 150 H146"/></g>
+
+    <!-- 2 detection -->
+    <rect class="node n2" x="323" y="93" width="84" height="84" rx="18" fill="#161b22" stroke="#ff6b35" stroke-width="2"/>
+    <path d="M365 112 L385 120 V136 C385 149 376 157 365 161 C354 157 345 149 345 136 V120 Z" fill="none" stroke="#ff6b35" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M357 136 l6 6 l11 -12" fill="none" stroke="#ff6b35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- 3 ML -->
+    <rect class="node n3" x="558" y="93" width="84" height="84" rx="18" fill="#161b22" stroke="#a855f7" stroke-width="2"/>
+    <g stroke="#a855f7" stroke-width="1.6" stroke-opacity="0.7">
+      <path d="M580 118 L600 135 M580 152 L600 135 M580 118 L600 118 M580 152 L600 152 M600 118 L620 135 M600 135 L620 135 M600 152 L620 135 M580 118 L600 152 M580 152 L600 118"/>
+    </g>
+    <g fill="#a855f7"><circle cx="580" cy="118" r="4.5"/><circle cx="580" cy="152" r="4.5"/><circle cx="600" cy="118" r="4.5"/><circle cx="600" cy="135" r="4.5"/><circle cx="600" cy="152" r="4.5"/><circle cx="620" cy="135" r="5.5"/></g>
+    <g class="tag"><rect x="580" y="72" width="40" height="18" rx="9" fill="#a855f7"/><text x="600" y="85" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#0b0d12">AI</text></g>
+
+    <!-- 4 MITRE -->
+    <rect class="node n4" x="793" y="93" width="84" height="84" rx="18" fill="#161b22" stroke="#10b981" stroke-width="2"/>
+    <g fill="#10b981">
+      <rect x="815" y="115" width="11" height="11" rx="2"/><rect x="830" y="115" width="11" height="11" rx="2" opacity=".4"/><rect x="845" y="115" width="11" height="11" rx="2"/>
+      <rect x="815" y="130" width="11" height="11" rx="2" opacity=".4"/><rect x="830" y="130" width="11" height="11" rx="2"/><rect x="845" y="130" width="11" height="11" rx="2" opacity=".4"/>
+      <rect x="815" y="145" width="11" height="11" rx="2"/><rect x="830" y="145" width="11" height="11" rx="2" opacity=".4"/><rect x="845" y="145" width="11" height="11" rx="2"/>
+    </g>
+
+    <!-- 5 triage -->
+    <rect class="node n5" x="1028" y="93" width="84" height="84" rx="18" fill="#161b22" stroke="#ff6b35" stroke-width="2"/>
+    <text x="1070" y="145" text-anchor="middle" class="mono" font-size="26" font-weight="700" fill="#ff6b35">&gt;_</text>
+    <g class="tag"><rect x="1050" y="72" width="40" height="18" rx="9" fill="#a855f7"/><text x="1070" y="85" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#0b0d12">AI</text></g>
+
+    <!-- labels -->
+    <g text-anchor="middle">
+      <g class="sans" font-size="19" font-weight="700" fill="#e6edf3">
+        <text x="130" y="208">Logs &amp; Alerts</text>
+        <text x="365" y="208">Detection</text>
+        <text x="600" y="208">ML Risk Scoring</text>
+        <text x="835" y="208">MITRE ATT&amp;CK</text>
+        <text x="1070" y="208">AI-assisted Triage</text>
+      </g>
+      <g class="mono" font-size="13" fill="#9aa4b0">
+        <text x="130" y="230">SIEM · logs · packets</text>
+        <text x="365" y="230">rules · IOC extraction</text>
+        <text x="600" y="230">Random + Isolation Forest</text>
+        <text x="835" y="230">techniques · tactics</text>
+        <text x="1070" y="230">severity · summary · report</text>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="269" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+</svg>

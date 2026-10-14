@@ -89,9 +89,9 @@
 
     <!-- text -->
     <g class="fade" text-anchor="middle">
-      <text x="600" y="72" class="mono" font-size="14" letter-spacing="4" fill="#22d3ee" fill-opacity="0.85">// SECURITY · AI · OPEN SOURCE</text>
+      <text x="600" y="72" class="mono" font-size="14" letter-spacing="4" fill="#22d3ee" fill-opacity="0.85">// CYBERSECURITY × ARTIFICIAL INTELLIGENCE</text>
       <text x="600" y="150" class="sans" font-size="76" font-weight="800" fill="url(#name)" filter="url(#soft)">Sargun Kaur</text>
-      <text x="600" y="194" class="sans" font-size="20" font-weight="500" fill="#e6edf3">AI/ML Enthusiast  |  Cybersecurity Learner  |  Developer  |  Open-Source Contributor</text>
+      <text x="600" y="194" class="sans" font-size="20" font-weight="500" fill="#e6edf3"><tspan fill="#c084fc" font-weight="700">AI/ML Enthusiast</tspan>  |  <tspan fill="#ff8a5c" font-weight="700">Cybersecurity Learner</tspan>  |  Developer  |  Open-Source Contributor</text>
       <text x="600" y="226" class="mono" font-size="14" fill="#8b949e">B.Tech CSE · GGSIPU Delhi</text>
     </g>
 

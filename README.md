@@ -5,7 +5,7 @@
 <img src="./assets/header.svg" width="100%" alt="Sargun Kaur — AI/ML Enthusiast, Cybersecurity Learner, Developer, Open-Source Contributor. B.Tech CSE, GGSIPU Delhi." />
 
 <a href="https://github.com/SargunKaur15">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=FF6B35&center=true&vCenter=true&width=620&height=48&lines=Building+AI-powered+solutions;Exploring+Cybersecurity;Learning+Blue+Team+Operations;Developing+with+Python;Turning+ideas+into+practical+projects" alt="Building AI-powered solutions · Exploring Cybersecurity · Learning Blue Team Operations · Developing with Python · Turning ideas into practical projects" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=FF6B35&center=true&vCenter=true&width=620&height=48&lines=Building+AI-powered+security+tools;Detecting+threats+with+Machine+Learning;Exploring+Cybersecurity;Learning+Blue+Team+Operations;Mapping+attacks+to+MITRE+ATT%26CK" alt="Building AI-powered security tools · Detecting threats with Machine Learning · Exploring Cybersecurity · Learning Blue Team Operations · Mapping attacks to MITRE ATT&amp;CK" />
 </a>
 
 <br/>
@@ -20,11 +20,13 @@
 
 <img src="./assets/coder-girl.svg" align="right" width="380" alt="Animated illustration of a girl with headphones coding on a laptop with a glowing shield logo, code scrolling on a screen behind her" />
 
-I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and machine learning** meet. I build defensive tooling that follows a real SOC analyst's workflow — detection, triage, investigation, MITRE ATT&CK mapping and ML-assisted risk analysis — and I document exactly what each project does and doesn't do.
+### Cybersecurity × AI
 
-- **Building:** [SOCGenie](https://github.com/SargunKaur15/SOCGenie), a SOC platform prototype
-- **Learning:** Blue Team operations, SIEM workflows, detection engineering
-- **Into:** applied ML for security, Python, React
+I'm a **B.Tech CSE student at GGSIPU Delhi** building at the intersection of **cybersecurity** and **artificial intelligence**. My projects follow a real SOC analyst's workflow — detect, triage, investigate, map to MITRE ATT&CK — and use **machine learning and LLMs** to make each step faster and smarter. I document exactly what each project does and doesn't do.
+
+- **Security:** Blue Team / SOC operations, detection engineering, threat triage
+- **AI:** ML-based intrusion detection, anomaly detection, LLM-assisted alert triage
+- **Building:** [SOCGenie](https://github.com/SargunKaur15/SOCGenie), a SOC platform with an ML risk engine
 
 **Goal:** build real-world AI and cybersecurity solutions, and grow into a skilled cybersecurity professional.
 
@@ -34,22 +36,42 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and m
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
+## Where Security Meets AI
+
+<p align="center"><img src="./assets/security-ai-pipeline.svg" width="100%" alt="Pipeline: Logs and alerts, then rule-based detection and IOC extraction, then ML risk scoring with Random Forest and Isolation Forest (AI), then MITRE ATT&amp;CK mapping, then AI-assisted triage with severity, summary and report (AI)." /></p>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### <img src="https://img.shields.io/badge/-CYBERSECURITY-ff6b35?style=for-the-badge" alt="Cybersecurity" />
+
+- **SOC workflow** — alert queue, investigation, incident status flow ([SOCGenie](https://github.com/SargunKaur15/SOCGenie))
+- **Detection engineering** — 7-rule log detection engine
+- **MITRE ATT&CK** — 14 techniques across 10 tactics, tied to alert evidence
+- **IOC extraction** — IPs, URLs, file hashes from raw alerts ([CyberSentinel](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard))
+- **Network analysis** — packet inspection with Scapy ([Packet Analyzer](https://github.com/SargunKaur15/Network-Packet-Analyzer))
+
+</td>
+<td width="50%" valign="top">
+
+#### <img src="https://img.shields.io/badge/-ARTIFICIAL_INTELLIGENCE-a855f7?style=for-the-badge" alt="Artificial Intelligence" />
+
+- **ML intrusion detection** — Random Forest on CSE-CIC-IDS2018 ([SOCGenie](https://github.com/SargunKaur15/SOCGenie))
+- **Anomaly detection** — Isolation Forest for unseen behaviour
+- **ML-assisted risk** — seven-factor risk engine with an ML factor
+- **LLM alert triage** — structured severity + recommended actions ([CyberSentinel](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard))
+- **Honest fallbacks** — deterministic rule-based mode when no model or API key is live
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 ## Tech Stack
 
 <sub>Grouped from what my public repositories actually use. Nothing here is a proficiency rating.</sub>
-
-<details open>
-<summary><b>Programming</b></summary>
-<br/>
-
-<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
-<img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-<img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-<img src="https://img.shields.io/badge/C%2B%2B-161b22?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
-<img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/SQL-161b22?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="SQL" />
-
-</details>
 
 <details open>
 <summary><b>Cybersecurity</b></summary>
@@ -71,6 +93,21 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and m
 <img src="https://img.shields.io/badge/pandas-161b22?style=for-the-badge&logo=pandas&logoColor=E70488" alt="pandas" />
 <img src="https://img.shields.io/badge/NumPy-161b22?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
 <img src="https://img.shields.io/badge/Claude_API-161b22?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Anthropic Claude API" />
+<img src="https://img.shields.io/badge/Random_Forest-161b22?style=for-the-badge" alt="Random Forest" />
+<img src="https://img.shields.io/badge/Isolation_Forest-161b22?style=for-the-badge" alt="Isolation Forest" />
+
+</details>
+
+<details open>
+<summary><b>Programming</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/C%2B%2B-161b22?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
+<img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/SQL-161b22?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="SQL" />
 
 </details>
 
@@ -103,14 +140,14 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and m
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Featured Projects
+## Featured Projects · Security × AI
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### [SOCGenie](https://github.com/SargunKaur15/SOCGenie)
-<img src="https://img.shields.io/badge/Flagship-ff6b35?style=flat-square" alt="Flagship" /> <img src="https://img.shields.io/badge/SOC_Platform-a855f7?style=flat-square" alt="SOC platform" />
+<img src="https://img.shields.io/badge/Flagship-ff6b35?style=flat-square" alt="Flagship" /> <img src="https://img.shields.io/badge/Security_%2B_ML-a855f7?style=flat-square" alt="Security + ML" />
 
 Academic SOC platform prototype built around the real analyst workflow: log upload → **7-rule detection engine** → alert queue → investigation with attack-path view → **seven-factor risk score** → **MITRE ATT&CK map** (14 techniques, 10 tactics). A Random Forest + Isolation Forest model was trained and evaluated offline on CSE-CIC-IDS2018.
 
@@ -122,7 +159,7 @@ Academic SOC platform prototype built around the real analyst workflow: log uplo
 <td width="50%" valign="top">
 
 ### [AI-CyberSentinel SOC Dashboard](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard)
-<img src="https://img.shields.io/badge/AI_Triage-a855f7?style=flat-square" alt="AI triage" /> <img src="https://img.shields.io/badge/Offline_Mode-10b981?style=flat-square" alt="Offline mode" />
+<img src="https://img.shields.io/badge/Security_%2B_LLM-a855f7?style=flat-square" alt="Security + LLM" /> <img src="https://img.shields.io/badge/Offline_Mode-10b981?style=flat-square" alt="Offline mode" />
 
 Simulates Level-1 alert triage: paste a SIEM alert or raw log, extract **IOCs** (IPs, URLs, MD5/SHA-1/SHA-256) with regex, get a structured triage summary with a **severity rating**, and download an incident report. Falls back to deterministic rule-based triage when no API key is set.
 
