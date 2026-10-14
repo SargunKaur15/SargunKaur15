@@ -14,14 +14,20 @@
     text { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 15px; }
     .p { fill: #10b981; } .c { fill: #e6edf3; } .o { fill: #8b949e; } .h { fill: #22d3ee; } .a { fill: #ff6b35; } .v { fill: #a855f7; }
     /* "typing": a background-coloured cover slides right in character-sized steps */
-    .cover { fill: #0d1117; animation-name: type; animation-fill-mode: both; animation-timing-function: steps(var(--n, 30)); }
+    .t1 { animation: type1 0.6s steps(6) 0.3s both; }
+    .t2 { animation: type2 1.0s steps(13) 1.4s both; }
+    .t3 { animation: type3 1.6s steps(24) 2.9s both; }
+    .t4 { animation: type4 1.0s steps(13) 5.0s both; }
     .out { opacity: 0; animation: show .01s linear forwards; }
     .cursor { fill: #ff6b35; animation: blink 1s steps(1) infinite; }
-    @keyframes type { from { transform: translateX(0); } to { transform: translateX(calc(var(--n, 30) * 9px + 9px)); } }
+    @keyframes type1 { from { transform: translateX(0); } to { transform: translateX(54px); } }
+    @keyframes type2 { from { transform: translateX(0); } to { transform: translateX(117px); } }
+    @keyframes type3 { from { transform: translateX(0); } to { transform: translateX(216px); } }
+    @keyframes type4 { from { transform: translateX(0); } to { transform: translateX(117px); } }
     @keyframes show { to { opacity: 1; } }
     @keyframes blink { 50% { opacity: 0; } }
     @media (prefers-reduced-motion: reduce) {
-      .cover { display: none; } .out { animation: none; opacity: 1; } .cursor { animation: none; }
+      .t1, .t2, .t3, .t4 { display: none; } .out { animation: none; opacity: 1; } .cursor { animation: none; }
     }
   </style>
 
@@ -35,23 +41,23 @@
 
   <g clip-path="url(#body)">
     <!-- 1 -->
-    <text x="24" y="80"><tspan class="p">➜</tspan> <tspan class="h">~</tspan> <tspan class="c">whoami</tspan></text>
-    <rect class="cover" x="62" y="64" width="560" height="22" style="animation-duration:.6s; animation-delay:.3s; --n:6"/>
+    <text x="24" y="80"><tspan class="p">➜</tspan> <tspan class="h">~</tspan></text><text x="66" y="80" class="c" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
+    <rect class="t1" x="66" y="64" width="60" height="22" fill="#0d1117"/>
     <text x="24" y="104" class="out" style="animation-delay:1s"><tspan class="a">Sargun Kaur</tspan><tspan class="o"> · B.Tech CSE @ GGSIPU Delhi</tspan></text>
 
     <!-- 2 -->
-    <text x="24" y="140"><tspan class="p">➜</tspan> <tspan class="h">~</tspan> <tspan class="c">cat focus.txt</tspan></text>
-    <rect class="cover" x="62" y="124" width="560" height="22" style="animation-duration:1s; animation-delay:1.4s; --n:13"/>
+    <text x="24" y="140"><tspan class="p">➜</tspan> <tspan class="h">~</tspan></text><text x="66" y="140" class="c" textLength="117" lengthAdjust="spacingAndGlyphs">cat focus.txt</text>
+    <rect class="t2" x="66" y="124" width="123" height="22" fill="#0d1117"/>
     <text x="24" y="164" class="out" style="animation-delay:2.5s"><tspan class="v">Blue Team</tspan><tspan class="o"> · </tspan><tspan class="v">SOC analysis</tspan><tspan class="o"> · </tspan><tspan class="v">detection engineering</tspan><tspan class="o"> · </tspan><tspan class="v">ML for security</tspan></text>
 
     <!-- 3 -->
-    <text x="24" y="200"><tspan class="p">➜</tspan> <tspan class="h">~</tspan> <tspan class="c">ls ~/projects --featured</tspan></text>
-    <rect class="cover" x="62" y="184" width="560" height="22" style="animation-duration:1.6s; animation-delay:2.9s; --n:24"/>
+    <text x="24" y="200"><tspan class="p">➜</tspan> <tspan class="h">~</tspan></text><text x="66" y="200" class="c" textLength="216" lengthAdjust="spacingAndGlyphs">ls ~/projects --featured</text>
+    <rect class="t3" x="66" y="184" width="222" height="22" fill="#0d1117"/>
     <text x="24" y="224" class="out" style="animation-delay:4.6s"><tspan class="h">SOCGenie/</tspan>   <tspan class="h">AI-CyberSentinel-SOC-Dashboard/</tspan>   <tspan class="h">Network-Packet-Analyzer/</tspan></text>
 
     <!-- 4 -->
-    <text x="24" y="260"><tspan class="p">➜</tspan> <tspan class="h">~</tspan> <tspan class="c">echo $MISSION</tspan></text>
-    <rect class="cover" x="62" y="244" width="560" height="22" style="animation-duration:1s; animation-delay:5s; --n:13"/>
+    <text x="24" y="260"><tspan class="p">➜</tspan> <tspan class="h">~</tspan></text><text x="66" y="260" class="c" textLength="117" lengthAdjust="spacingAndGlyphs">echo $MISSION</text>
+    <rect class="t4" x="66" y="244" width="123" height="22" fill="#0d1117"/>
     <text x="24" y="284" class="out" style="animation-delay:6.1s"><tspan class="e" fill="#10b981">Build real-world AI + cybersecurity solutions that hold up in practice.</tspan></text>
 
     <!-- prompt -->
