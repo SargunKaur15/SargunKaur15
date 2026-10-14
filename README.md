@@ -158,24 +158,16 @@ Small, clearly scoped Python tools from my security learning path:
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-## Education &amp; Community
+## Education
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
 **B.Tech, Computer Science & Engineering**<br/>
 Guru Gobind Singh Indraprastha University (GGSIPU), Delhi
 
 <img src="https://img.shields.io/badge/B.Tech_CSE-161b22?style=for-the-badge" alt="B.Tech CSE" /><img src="https://img.shields.io/badge/GGSIPU_Delhi-ff6b35?style=for-the-badge" alt="GGSIPU Delhi" />
-
-</td>
-<td width="50%" valign="top">
-
-**Coder Girl Community**<br/>
-A student-led learning and coding community for GGSIPU engineering students: study resources, coding roadmaps, a cybersecurity lab and peer support.
-
-<img src="https://img.shields.io/badge/Community-161b22?style=for-the-badge" alt="Community" /><img src="https://img.shields.io/badge/Coder_Girl-a855f7?style=for-the-badge" alt="Coder Girl Community" />
 
 </td>
 </tr>
