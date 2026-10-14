@@ -2,10 +2,10 @@
 
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Sargun Kaur — AI/ML Enthusiast, Cybersecurity Learner, Developer, Open-Source Contributor. B.Tech CSE, GGSIPU Delhi." />
+<img src="./assets/header.svg" width="100%" alt="Sargun Kaur — Cybersecurity Learner, AI/ML Enthusiast, Developer, Open-Source Contributor. B.Tech CSE, GGSIPU Delhi." />
 
 <a href="https://github.com/SargunKaur15">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=FF6B35&center=true&vCenter=true&width=620&height=48&lines=Building+AI-powered+security+tools;Detecting+threats+with+Machine+Learning;Exploring+Cybersecurity;Learning+Blue+Team+Operations;Mapping+attacks+to+MITRE+ATT%26CK" alt="Building AI-powered security tools · Detecting threats with Machine Learning · Exploring Cybersecurity · Learning Blue Team Operations · Mapping attacks to MITRE ATT&amp;CK" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=FF6B35&center=true&vCenter=true&width=620&height=48&lines=Exploring+Cybersecurity;Learning+Blue+Team+Operations;Mapping+attacks+to+MITRE+ATT%26CK;Building+AI-powered+security+tools;Detecting+threats+with+Machine+Learning" alt="Exploring Cybersecurity · Learning Blue Team Operations · Mapping attacks to MITRE ATT&amp;CK · Building AI-powered security tools · Detecting threats with Machine Learning" />
 </a>
 
 <br/>
@@ -20,9 +20,9 @@
 
 <img src="./assets/coder-girl.svg" align="right" width="380" alt="Animated illustration of a girl with headphones coding on a laptop with a glowing shield logo, code scrolling on a screen behind her" />
 
-### Cybersecurity × AI
+### Cybersecurity first, powered by AI
 
-I'm a **B.Tech CSE student at GGSIPU Delhi** building at the intersection of **cybersecurity** and **artificial intelligence**. My projects follow a real SOC analyst's workflow — detect, triage, investigate, map to MITRE ATT&CK — and use **machine learning and LLMs** to make each step faster and smarter. I document exactly what each project does and doesn't do.
+I'm a **cybersecurity-focused B.Tech CSE student at GGSIPU Delhi**. Security comes first in everything I build: my projects follow a real SOC analyst's workflow — detect, triage, investigate, map to MITRE ATT&CK — and then use **machine learning and LLMs** to make each step faster and smarter. I document exactly what each project does and doesn't do.
 
 - **Security:** Blue Team / SOC operations, detection engineering, threat triage
 - **AI:** ML-based intrusion detection, anomaly detection, LLM-assisted alert triage
@@ -36,7 +36,7 @@ I'm a **B.Tech CSE student at GGSIPU Delhi** building at the intersection of **c
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-<img src="./assets/titles/security-ai.svg" width="100%" alt="Where Security Meets AI" />
+<img src="./assets/titles/security-ai.svg" width="100%" alt="Security First, Powered by AI" />
 
 <p align="center"><img src="./assets/security-ai-pipeline.svg" width="100%" alt="Pipeline: Logs and alerts, then rule-based detection and IOC extraction, then ML risk scoring with Random Forest and Isolation Forest (AI), then MITRE ATT&amp;CK mapping, then AI-assisted triage with severity, summary and report (AI)." /></p>
 
@@ -222,11 +222,7 @@ Guru Gobind Singh Indraprastha University (GGSIPU), Delhi
 </tr>
 </table>
 
-### Currently Exploring
-
-- **Blue Team operations** — SIEM workflows, log analysis and incident response
-- **Detection engineering** — writing and testing rules mapped to MITRE ATT&CK
-- **Applied ML for security** — anomaly detection and ML-assisted risk scoring
+<p align="center"><img src="./assets/learning-path.svg" width="100%" alt="Currently exploring — Blue Team learning path: SOC fundamentals, log analysis and SIEM, detection engineering mapped to MITRE ATT&amp;CK, incident response, then ML for threat detection." /></p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 

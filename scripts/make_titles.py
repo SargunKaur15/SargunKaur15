@@ -8,7 +8,7 @@ OUT = Path(__file__).resolve().parent.parent / "assets" / "titles"
 
 # (file slug, title, accent colour, icon markup drawn around a 48x48 box at the origin)
 SECTIONS = [
-    ("security-ai", "Where Security Meets AI", "#a855f7", """
+    ("security-ai", "Security First, Powered by AI", "#ff6b35", """
       <path d="M24 9 L37 14 V24 C37 32 31 37 24 40 C17 37 11 32 11 24 V14 Z" fill="none" stroke="{c}" stroke-width="2.5" stroke-linejoin="round"/>
       <circle cx="24" cy="21" r="2.6" fill="{c}"/><circle cx="18" cy="28" r="2.2" fill="{c}"/><circle cx="30" cy="28" r="2.2" fill="{c}"/>
       <path d="M24 21 L18 28 M24 21 L30 28 M18 28 H30" stroke="{c}" stroke-width="1.5"/>"""),

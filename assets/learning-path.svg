@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-labelledby="title desc">
+  <title id="title">Currently exploring: Blue Team learning path</title>
+  <desc id="desc">A path through five stages: SOC fundamentals, log analysis and SIEM, detection engineering mapped to MITRE ATT&amp;CK, incident response, and finally ML for threat detection. A glowing pulse travels the path and lights each stage in turn.</desc>
+  <defs>
+    <linearGradient id="trail" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="1060" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.25" stop-color="#ff6b35"/>
+      <stop offset="0.5" stop-color="#10b981"/>
+      <stop offset="0.75" stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="pulse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#ff6b35" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="250" rx="18"/></clipPath>
+    <path id="route" d="M140 118 C255 68 255 168 370 118 S485 68 600 118 S715 168 830 118 S945 68 1060 118"/>
+  </defs>
+  <style>
+    * { transform-box: fill-box; }
+    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+    .hex { animation: lit 10s ease-in-out infinite; transform-origin: center; }
+    .h2 { animation-delay: 2.5s; } .h3 { animation-delay: 5s; } .h4 { animation-delay: 7.5s; } .h5 { animation-delay: 10s; }
+    .flow { stroke-dasharray: 2 10; stroke-linecap: round; animation: flow 1.5s linear infinite; }
+    .tag { animation: bob 3s ease-in-out infinite; }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes lit { 0%, 100% { fill-opacity: .08; stroke-opacity: .5; transform: scale(1); } 6% { fill-opacity: .3; stroke-opacity: 1; transform: scale(1.08); } 20% { fill-opacity: .12; stroke-opacity: .75; transform: scale(1); } }
+    @keyframes flow { to { stroke-dashoffset: -24; } }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .hex, .flow, .tag, .caret { animation: none; } .pulse { display: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="250" fill="#0b0d12"/>
+    <rect width="1200" height="250" fill="url(#grid)"/>
+
+    <text x="32" y="38" class="mono" font-size="13" letter-spacing="3" fill="#ff6b35">CURRENTLY EXPLORING</text>
+    <rect class="caret" x="244" y="27" width="8" height="14" fill="#ff6b35"/>
+    <text x="1168" y="38" text-anchor="end" class="mono" font-size="13" fill="#8b949e">blue team  <tspan fill="#ff6b35">→</tspan>  <tspan fill="#a855f7">AI</tspan></text>
+
+    <!-- route -->
+    <use href="#route" fill="none" stroke="url(#trail)" stroke-width="3" stroke-opacity="0.25"/>
+    <use href="#route" fill="none" stroke="url(#trail)" stroke-width="3" class="flow"/>
+
+    <!-- travelling pulse (one lap = 10s, matching the stage glow timing) -->
+    <g class="pulse">
+      <circle r="12" fill="url(#pulse)">
+        <animateMotion dur="10s" repeatCount="indefinite" rotate="0"><mpath href="#route"/></animateMotion>
+      </circle>
+    </g>
+
+    <!-- 1 SOC fundamentals : eye -->
+    <polygon class="hex" points="173,99 140,80 107,99 107,137 140,156 173,137" fill="#22d3ee" fill-opacity=".08" stroke="#22d3ee" stroke-width="2.5"/>
+    <path d="M122 118 Q140 102 158 118 Q140 134 122 118 Z" fill="none" stroke="#22d3ee" stroke-width="2.5"/>
+    <circle cx="140" cy="118" r="5" fill="#22d3ee"/>
+
+    <!-- 2 Log analysis & SIEM : lines + magnifier -->
+    <polygon class="hex h2" points="403,99 370,80 337,99 337,137 370,156 403,137" fill="#ff6b35" fill-opacity=".08" stroke="#ff6b35" stroke-width="2.5"/>
+    <g stroke="#ff6b35" stroke-width="2.5" stroke-linecap="round" fill="none">
+      <path d="M352 106 H374 M352 115 H368 M352 124 H362"/>
+      <circle cx="377" cy="124" r="7"/><path d="M382 129 L389 136"/>
+    </g>
+
+    <!-- 3 Detection engineering : crosshair -->
+    <polygon class="hex h3" points="633,99 600,80 567,99 567,137 600,156 633,137" fill="#10b981" fill-opacity=".08" stroke="#10b981" stroke-width="2.5"/>
+    <g stroke="#10b981" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <circle cx="600" cy="118" r="13"/><circle cx="600" cy="118" r="4" fill="#10b981"/>
+      <path d="M600 99 V107 M600 129 V137 M581 118 H589 M611 118 H619"/>
+    </g>
+
+    <!-- 4 Incident response : shield with alert -->
+    <polygon class="hex h4" points="863,99 830,80 797,99 797,137 830,156 863,137" fill="#ff6b35" fill-opacity=".08" stroke="#ff6b35" stroke-width="2.5"/>
+    <path d="M830 100 L846 106 V118 C846 128 839 134 830 137 C821 134 814 128 814 118 V106 Z" fill="none" stroke="#ff6b35" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M830 110 V121" stroke="#ff6b35" stroke-width="3" stroke-linecap="round"/><circle cx="830" cy="127" r="1.8" fill="#ff6b35"/>
+
+    <!-- 5 ML for threat detection : neural net + AI tag -->
+    <polygon class="hex h5" points="1093,99 1060,80 1027,99 1027,137 1060,156 1093,137" fill="#a855f7" fill-opacity=".08" stroke="#a855f7" stroke-width="2.5"/>
+    <g stroke="#a855f7" stroke-width="1.6" stroke-opacity=".8"><path d="M1044 106 L1060 118 M1044 130 L1060 118 M1044 106 L1060 106 M1044 130 L1060 130 M1060 106 L1076 118 M1060 118 L1076 118 M1060 130 L1076 118"/></g>
+    <g fill="#a855f7"><circle cx="1044" cy="106" r="3.5"/><circle cx="1044" cy="130" r="3.5"/><circle cx="1060" cy="106" r="3.5"/><circle cx="1060" cy="118" r="3.5"/><circle cx="1060" cy="130" r="3.5"/><circle cx="1076" cy="118" r="4.5"/></g>
+    <g class="tag"><rect x="1040" y="56" width="40" height="18" rx="9" fill="#a855f7"/><text x="1060" y="69" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#0b0d12">AI</text></g>
+
+    <!-- labels -->
+    <g text-anchor="middle">
+      <g class="sans" font-size="18" font-weight="700" fill="#e6edf3">
+        <text x="140" y="192">SOC Fundamentals</text>
+        <text x="370" y="192">Log Analysis &amp; SIEM</text>
+        <text x="600" y="192">Detection Engineering</text>
+        <text x="830" y="192">Incident Response</text>
+        <text x="1060" y="192">ML for Threat Detection</text>
+      </g>
+      <g class="mono" font-size="13" fill="#9aa4b0">
+        <text x="140" y="215">alerts · triage · escalation</text>
+        <text x="370" y="215">parsing · correlation</text>
+        <text x="600" y="215">rules mapped to ATT&amp;CK</text>
+        <text x="830" y="215">contain · recover</text>
+        <text x="1060" y="215">anomalies · risk scoring</text>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="249" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+</svg>
