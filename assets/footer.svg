@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Detect. Investigate. Defend. Build.">
+  <defs>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ff6b35" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="150" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .a { animation: drift 18s linear infinite; }
+    .b { animation: drift 26s linear infinite reverse; }
+    .t { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; font-size: 15px; letter-spacing: 5px; fill: #e6edf3; }
+    @keyframes drift { to { transform: translateX(-600px); } }
+    @media (prefers-reduced-motion: reduce) { .a, .b { animation: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="150" fill="#0b0d12"/>
+    <g class="b"><path fill="url(#waveB)" d="M0 40 Q150 15 300 40 T600 40 T900 40 T1200 40 T1500 40 T1800 40 T2100 40 T2400 40 V150 H0 Z"/></g>
+    <g class="a"><path fill="url(#waveA)" d="M0 62 Q150 36 300 62 T600 62 T900 62 T1200 62 T1500 62 T1800 62 T2100 62 T2400 62 V150 H0 Z"/></g>
+    <text x="600" y="115" text-anchor="middle" class="t">DETECT · INVESTIGATE · DEFEND · BUILD</text>
+  </g>
+</svg>

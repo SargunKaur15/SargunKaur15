@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="title desc">
+  <title id="title">Sargun Kaur</title>
+  <desc id="desc">AI/ML Enthusiast, Cybersecurity Learner, Developer and Open-Source Contributor. B.Tech CSE at GGSIPU Delhi. Founder of Coder Girl Community.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0d12"/>
+      <stop offset="1" stop-color="#11141b"/>
+    </linearGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#ff6b35"/>
+      <stop offset="0.25" stop-color="#a855f7"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="0.75" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#ff6b35"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1200 0" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b35" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0.35"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+    .wave-a { animation: drift 16s linear infinite; }
+    .wave-b { animation: drift 24s linear infinite reverse; }
+    .pulse { animation: pulse 3s ease-in-out infinite; }
+    .p2 { animation-delay: .6s; } .p3 { animation-delay: 1.2s; } .p4 { animation-delay: 1.8s; } .p5 { animation-delay: 2.4s; }
+    .flow { stroke-dasharray: 4 6; animation: flow 3s linear infinite; }
+    .scan { animation: scan 4s ease-in-out infinite; }
+    .fade { opacity: 0; animation: fade 1.2s ease-out .2s forwards; }
+    @keyframes drift { to { transform: translateX(-600px); } }
+    @keyframes pulse { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes flow { to { stroke-dashoffset: -20; } }
+    @keyframes scan { 0%, 100% { transform: translateY(0); opacity: .2; } 50% { transform: translateY(70px); opacity: .9; } }
+    @keyframes fade { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .wave-a, .wave-b, .pulse, .flow, .scan { animation: none; }
+      .fade { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <ellipse cx="600" cy="150" rx="460" ry="150" fill="url(#glow)"/>
+
+    <!-- left: shield with scan line (blue-team motif) -->
+    <g transform="translate(70 78)" fill="none">
+      <path d="M50 0 L95 16 V58 C95 92 74 112 50 124 C26 112 5 92 5 58 V16 Z" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2"/>
+      <path d="M50 14 L82 26 V58 C82 84 67 99 50 108 C33 99 18 84 18 58 V26 Z" stroke="#22d3ee" stroke-opacity="0.2"/>
+      <path d="M35 60 l11 11 l20 -24" stroke="#10b981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="pulse"/>
+      <rect class="scan" x="10" y="22" width="80" height="2" fill="#22d3ee"/>
+    </g>
+
+    <!-- right: small neural network motif -->
+    <g transform="translate(1000 72)">
+      <g stroke="#a855f7" stroke-opacity="0.45" stroke-width="1.2" class="flow">
+        <path d="M10 20 L80 10 M10 20 L80 60 M10 20 L80 110 M10 70 L80 10 M10 70 L80 60 M10 70 L80 110 M10 120 L80 60 M10 120 L80 110 M10 120 L80 10"/>
+        <path d="M80 10 L150 40 M80 60 L150 40 M80 110 L150 40 M80 10 L150 95 M80 60 L150 95 M80 110 L150 95"/>
+      </g>
+      <g fill="#0b0d12" stroke-width="2">
+        <circle cx="10" cy="20" r="6" stroke="#ff6b35" class="pulse"/>
+        <circle cx="10" cy="70" r="6" stroke="#ff6b35" class="pulse p2"/>
+        <circle cx="10" cy="120" r="6" stroke="#ff6b35" class="pulse p3"/>
+        <circle cx="80" cy="10" r="6" stroke="#a855f7" class="pulse p2"/>
+        <circle cx="80" cy="60" r="6" stroke="#a855f7" class="pulse p4"/>
+        <circle cx="80" cy="110" r="6" stroke="#a855f7" class="pulse p5"/>
+        <circle cx="150" cy="40" r="7" stroke="#22d3ee" class="pulse p3"/>
+        <circle cx="150" cy="95" r="7" stroke="#10b981" class="pulse p5"/>
+      </g>
+    </g>
+
+    <!-- text -->
+    <g class="fade" text-anchor="middle">
+      <text x="600" y="72" class="mono" font-size="14" letter-spacing="4" fill="#22d3ee" fill-opacity="0.85">// SECURITY · AI · OPEN SOURCE</text>
+      <text x="600" y="150" class="sans" font-size="76" font-weight="800" fill="url(#name)" filter="url(#soft)">Sargun Kaur</text>
+      <text x="600" y="194" class="sans" font-size="20" font-weight="500" fill="#e6edf3">AI/ML Enthusiast  |  Cybersecurity Learner  |  Developer  |  Open-Source Contributor</text>
+      <text x="600" y="226" class="mono" font-size="14" fill="#8b949e">B.Tech CSE · GGSIPU Delhi  ·  Founder &amp; Community Lead, Coder Girl Community</text>
+    </g>
+
+    <!-- waves: each path repeats every 600 units, so translating by -600 loops seamlessly -->
+    <g class="wave-b">
+      <path fill="url(#waveB)" d="M0 268 Q150 248 300 268 T600 268 T900 268 T1200 268 T1500 268 T1800 268 T2100 268 T2400 268 V320 H0 Z"/>
+    </g>
+    <g class="wave-a">
+      <path fill="url(#waveA)" d="M0 285 Q150 262 300 285 T600 285 T900 285 T1200 285 T1500 285 T1800 285 T2100 285 T2400 285 V320 H0 Z"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.06"/>
+</svg>

@@ -1,81 +1,230 @@
-# Hi, I'm Sargun Kaur 👋
+<!-- Profile README for github.com/SargunKaur15. Previous version: backup/README.2026-10-15.md -->
 
-## Cybersecurity | Blue Team | SOC Analyst (Student)
+<div align="center">
 
-Cybersecurity student focused on Blue Team and SOC operations. I build
-defensive security tooling around threat detection, alert triage,
-investigation, MITRE ATT&CK mapping, and applied machine learning for
-security — most recently as SOCGenie, a full SOC platform prototype.
+<img src="./assets/header.svg" width="100%" alt="Sargun Kaur — AI/ML Enthusiast, Cybersecurity Learner, Developer, Open-Source Contributor. B.Tech CSE, GGSIPU Delhi. Founder & Community Lead, Coder Girl Community." />
 
-## 🛡️ What I Build
+<a href="https://github.com/SargunKaur15">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=900&color=FF6B35&center=true&vCenter=true&width=620&height=48&lines=Building+AI-powered+solutions;Exploring+Cybersecurity;Learning+Blue+Team+Operations;Developing+with+Python;Turning+ideas+into+practical+projects" alt="Building AI-powered solutions · Exploring Cybersecurity · Learning Blue Team Operations · Developing with Python · Turning ideas into practical projects" />
+</a>
 
-Defensive security projects that follow a real analyst workflow, end to end:
+<br/>
 
-```
-Detection → Triage → Investigation → Risk → MITRE ATT&CK → Response
-```
+<a href="https://www.linkedin.com/in/sargun-kaur-587023264/"><img src="https://img.shields.io/badge/LinkedIn-sargun--kaur-161b22?style=for-the-badge&labelColor=0A66C2" alt="LinkedIn: Sargun Kaur" /></a>
+<a href="https://github.com/SargunKaur15?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Repositories-161b22?style=for-the-badge&logo=github&logoColor=white&labelColor=ff6b35" alt="GitHub repositories" /></a>
+<a href="https://github.com/SargunKaur15/SOCGenie"><img src="https://img.shields.io/badge/Flagship-SOCGenie-161b22?style=for-the-badge&labelColor=a855f7" alt="Flagship project: SOCGenie" /></a>
 
-Not dashboards for their own sake — systems where each stage genuinely feeds
-the next, and where a claim in the UI ("model trained," "X techniques
-mapped") is backed by real code, not a placeholder.
+</div>
 
-## 🚀 Featured Projects
+<br/>
+
+I'm a **B.Tech CSE student at GGSIPU Delhi** working where **cybersecurity and machine learning** meet. I build defensive tooling that follows a real SOC analyst's workflow — detection, triage, investigation, MITRE ATT&CK mapping and ML-assisted risk analysis — and I document exactly what each project does and doesn't do.
+
+I also founded and lead **Coder Girl Community**, a student-led learning community for GGSIPU engineering students.
+
+**Goal:** build real-world AI and cybersecurity solutions, and grow into a skilled cybersecurity professional.
+
+<p align="center"><img src="./assets/terminal.svg" width="88%" alt="Terminal: whoami — Sargun Kaur, B.Tech CSE at GGSIPU Delhi, founder of Coder Girl Community. Focus — Blue Team, SOC analysis, detection engineering, ML for security. Featured projects — SOCGenie, AI-CyberSentinel-SOC-Dashboard, Network-Packet-Analyzer." /></p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## Tech Stack
+
+<sub>Grouped from what my public repositories actually use. Nothing here is a proficiency rating.</sub>
+
+<details open>
+<summary><b>Programming</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-161b22?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+<img src="https://img.shields.io/badge/C%2B%2B-161b22?style=for-the-badge&logo=cplusplus&logoColor=00599C" alt="C++" />
+<img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/SQL-161b22?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="SQL" />
+
+</details>
+
+<details open>
+<summary><b>Cybersecurity</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/MITRE_ATT%26CK_Mapping-161b22?style=for-the-badge" alt="MITRE ATT&CK mapping" />
+<img src="https://img.shields.io/badge/Detection_Engineering-161b22?style=for-the-badge" alt="Rule-based detection engineering" />
+<img src="https://img.shields.io/badge/Alert_Triage_%26_IOC_Extraction-161b22?style=for-the-badge" alt="Alert triage and IOC extraction" />
+<img src="https://img.shields.io/badge/Scapy-161b22?style=for-the-badge&logo=python&logoColor=22D3EE" alt="Scapy packet analysis" />
+<img src="https://img.shields.io/badge/Cryptography_Basics-161b22?style=for-the-badge" alt="Classical cryptography basics" />
+
+</details>
+
+<details open>
+<summary><b>AI &amp; Machine Learning</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/scikit--learn-161b22?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/pandas-161b22?style=for-the-badge&logo=pandas&logoColor=E70488" alt="pandas" />
+<img src="https://img.shields.io/badge/NumPy-161b22?style=for-the-badge&logo=numpy&logoColor=4DABCF" alt="NumPy" />
+<img src="https://img.shields.io/badge/Claude_API-161b22?style=for-the-badge&logo=anthropic&logoColor=D97757" alt="Anthropic Claude API" />
+
+</details>
+
+<details>
+<summary><b>Web &amp; Backend</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/React-161b22?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Vite-161b22?style=for-the-badge&logo=vite&logoColor=A855F7" alt="Vite" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-161b22?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/Three.js-161b22?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
+<img src="https://img.shields.io/badge/Node.js-161b22?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+<img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" alt="FastAPI" />
+<img src="https://img.shields.io/badge/Streamlit-161b22?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit" />
+<img src="https://img.shields.io/badge/HTML5-161b22?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS-161b22?style=for-the-badge&logo=css&logoColor=A855F7" alt="CSS" />
+
+</details>
+
+<details>
+<summary><b>Developer Tools</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/Git-161b22?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/GitHub_Actions-161b22?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/VS_Code-161b22?style=for-the-badge" alt="VS Code" />
+
+</details>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [SOCGenie](https://github.com/SargunKaur15/SOCGenie)
-**Intelligent Security Operations Platform**
+<img src="https://img.shields.io/badge/Flagship-ff6b35?style=flat-square" alt="Flagship" /> <img src="https://img.shields.io/badge/SOC_Platform-a855f7?style=flat-square" alt="SOC platform" />
 
-A SOC platform prototype covering the full analyst workflow: a Command
-Center, alert monitoring and triage, a rule-based log detection engine
-(7 deterministic rules), an investigation workspace with attack-path
-visualization, a seven-factor risk-scoring engine, and a MITRE ATT&CK
-technique map (14 techniques across 10 tactics) tied to real alert
-evidence. Alongside the SOC console, a Random Forest + Isolation Forest
-model was trained and evaluated offline on CSE-CIC-IDS2018, with real,
-disclosed metrics (99.97% accuracy, 0.961 macro-F1 on the held-out test
-set) — offline evaluation results, not a production benchmark.
+Academic SOC platform prototype built around the real analyst workflow: log upload → **7-rule detection engine** → alert queue → investigation with attack-path view → **seven-factor risk score** → **MITRE ATT&CK map** (14 techniques, 10 tactics). A Random Forest + Isolation Forest model was trained and evaluated offline on CSE-CIC-IDS2018.
 
-`React` `TypeScript` `Three.js` `Python` `FastAPI` `scikit-learn`
+<sub><code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>scikit-learn</code></sub>
 
-### [AI-CyberSentinel-SOC-Dashboard](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard)
-**AI-assisted Level-1 alert triage**
+[Repository →](https://github.com/SargunKaur15/SOCGenie)
 
-A SOC dashboard that extracts indicators of compromise (IPs, URLs, file
-hashes) from pasted SIEM alerts or raw logs, produces a structured triage
-summary with a severity rating, and generates a downloadable incident
-report. Runs fully offline with deterministic rule-based triage when no
-API key is configured.
+</td>
+<td width="50%" valign="top">
 
-`Python` `Streamlit`
+### [AI-CyberSentinel SOC Dashboard](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard)
+<img src="https://img.shields.io/badge/AI_Triage-a855f7?style=flat-square" alt="AI triage" /> <img src="https://img.shields.io/badge/Offline_Mode-10b981?style=flat-square" alt="Offline mode" />
 
-## 🔐 Security Focus
+Simulates Level-1 alert triage: paste a SIEM alert or raw log, extract **IOCs** (IPs, URLs, MD5/SHA-1/SHA-256) with regex, get a structured triage summary with a **severity rating**, and download an incident report. Falls back to deterministic rule-based triage when no API key is set.
 
-**Strong evidence:** Security Detection · MITRE ATT&CK · Security
-Investigation · Rule-Based Detection · Applied ML for Security
+<sub><code>Python</code> <code>Streamlit</code> <code>OpenAI API (optional)</code></sub>
 
-**Some evidence:** Log Analysis · Threat Intelligence · Incident Response ·
-Security Automation · Networking
+[Repository →](https://github.com/SargunKaur15/AI-CyberSentinel-SOC-Dashboard)
 
-## ⚙️ Tech Stack
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Languages:** Python · TypeScript · JavaScript
+### [Network Packet Analyzer](https://github.com/SargunKaur15/Network-Packet-Analyzer)
+<img src="https://img.shields.io/badge/Network_Security-22d3ee?style=flat-square" alt="Network security" />
 
-**Security:** MITRE ATT&CK mapping · detection engineering · log parsing
+Scapy-based inspection tool that captures packets on an authorized interface and prints source/destination IP, protocol, TCP/UDP ports and a best-effort payload decode — the header-level visibility that IDS tools build on.
 
-**ML:** scikit-learn · pandas · numpy
+<sub><code>Python</code> <code>Scapy</code></sub>
 
-**Frontend:** React · Vite · Tailwind CSS
+[Repository →](https://github.com/SargunKaur15/Network-Packet-Analyzer)
 
-**Visualization:** Three.js (`@react-three/fiber`, `@react-three/drei`)
+</td>
+<td width="50%" valign="top">
 
-**Backend:** Node.js/TypeScript · Python/FastAPI
+### Security Fundamentals
+<img src="https://img.shields.io/badge/Learning_Projects-10b981?style=flat-square" alt="Learning projects" />
 
-## 🎯 Currently Focused On
+Small, clearly scoped Python tools from my security learning path:
 
-- SOC operations and detection engineering
-- Incident investigation workflows
-- MITRE ATT&CK-driven analysis
-- Applied machine learning for security use cases
+- [**Password Strength Analyzer**](https://github.com/SargunKaur15/Password-Strength-Analyzer) — rule-based composition checker
+- [**Image Encryption Tool**](https://github.com/SargunKaur15/Image-Encryption-Tool) — reversible per-pixel cipher (educational)
+- [**Caesar Cipher Tool**](https://github.com/SargunKaur15/Caesar-Cipher-Tool) — classical cryptography
 
-## 📫 Contact
+<sub><code>Python</code> <code>Pillow</code></sub>
 
-Open to connecting — reach out here on GitHub.
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## Education &amp; Community
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**B.Tech, Computer Science & Engineering**<br/>
+Guru Gobind Singh Indraprastha University (GGSIPU), Delhi
+
+<img src="https://img.shields.io/badge/B.Tech_CSE-161b22?style=for-the-badge" alt="B.Tech CSE" /><img src="https://img.shields.io/badge/GGSIPU_Delhi-ff6b35?style=for-the-badge" alt="GGSIPU Delhi" />
+
+</td>
+<td width="50%" valign="top">
+
+**Founder & Community Lead — Coder Girl Community**<br/>
+A student-led learning and coding community for GGSIPU engineering students: study resources, coding roadmaps, a cybersecurity lab and peer support.
+
+<img src="https://img.shields.io/badge/Founder-161b22?style=for-the-badge" alt="Founder" /><img src="https://img.shields.io/badge/Coder_Girl-a855f7?style=for-the-badge" alt="Coder Girl Community" />
+
+</td>
+</tr>
+</table>
+
+### Currently Exploring
+
+- **Blue Team operations** — SIEM workflows, log analysis and incident response
+- **Detection engineering** — writing and testing rules mapped to MITRE ATT&CK
+- **Applied ML for security** — anomaly detection and ML-assisted risk scoring
+- **AI for learning** — syllabus-grounded study tools for Coder Girl Community
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## GitHub Activity
+
+<div align="center">
+
+<a href="https://github.com/SargunKaur15"><img height="165" src="https://github-readme-stats.vercel.app/api?username=SargunKaur15&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ff6b35&icon_color=22d3ee&text_color=c9d1d9&ring_color=a855f7&include_all_commits=true" alt="GitHub stats for SargunKaur15" /></a>
+<a href="https://github.com/SargunKaur15?tab=repositories"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SargunKaur15&layout=compact&langs_count=6&hide_border=true&bg_color=0d1117&title_color=ff6b35&text_color=c9d1d9" alt="Most-used languages in SargunKaur15's public repositories" /></a>
+
+<a href="https://github.com/SargunKaur15"><img src="https://streak-stats.demolab.com?user=SargunKaur15&hide_border=true&background=0d1117&ring=a855f7&fire=ff6b35&currStreakLabel=22d3ee&sideLabels=c9d1d9&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&stroke=30363d" alt="Contribution streak for SargunKaur15" /></a>
+
+<sub>Live cards from public services. If one doesn't load, the same numbers are on my <a href="https://github.com/SargunKaur15">GitHub profile</a>.</sub>
+
+</div>
+
+### Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SargunKaur15/SargunKaur15/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SargunKaur15/SargunKaur15/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/SargunKaur15/SargunKaur15/output/github-snake-dark.svg" width="100%" alt="Animated snake eating SargunKaur15's GitHub contribution graph" />
+</picture>
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## Let's Connect
+
+Open to collaborating on security tooling, ML-for-security projects and student community initiatives.
+
+<a href="https://www.linkedin.com/in/sargun-kaur-587023264/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" /></a>
+<a href="https://github.com/SargunKaur15"><img src="https://img.shields.io/badge/Follow_on_GitHub-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" /></a>
+
+<div align="center">
+<br/>
+<img src="./assets/footer.svg" width="100%" alt="Detect · Investigate · Defend · Build" />
+
+<img src="https://komarev.com/ghpvc/?username=SargunKaur15&label=profile%20views&color=a855f7&style=flat-square" alt="Profile views" />
+</div>
