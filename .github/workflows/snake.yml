@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 0,12 * * *" # twice a day (UTC)
+    - cron: "30 18 * * *" # once a day at 18:30 UTC = midnight IST
   workflow_dispatch:
 
 # Only this workflow's token needs write access, and only to repository contents,
